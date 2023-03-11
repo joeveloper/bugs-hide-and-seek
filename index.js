@@ -6,5 +6,5 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const formData = new FormData(form);
     const data = Object.fromEntries(formData);
-    bugResponse.innerHTML = `${data.name} ${data.email}`;
+    bugRespons.innerHTML = `${data.name} ${data.email}`;
 });
