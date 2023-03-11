@@ -1,0 +1,18 @@
+.bug-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bug-form form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+#bug-response {
+    border: 1px solid #fff;
+    background-color: #ab9797;
+    padding: 20px;
+}
